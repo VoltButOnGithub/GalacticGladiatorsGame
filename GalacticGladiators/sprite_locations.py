@@ -1,0 +1,23 @@
+SPRITES_DIR: str = "assets/sprites/"
+
+TILES_DIR: str = SPRITES_DIR + "tiles/"
+TILE_COVER_SPRITE: str = TILES_DIR + "cover.png"
+TILE_GOLDMINE_SPRITE: str = TILES_DIR + "goldmine.png"
+TILE_GRASS_SPRITE: str = TILES_DIR + "grass.png"
+TILE_HILL_SPRITE: str = TILES_DIR + "hill.png"
+TILE_SENSOR_SPRITE: str = TILES_DIR + "sensor.png"
+
+UNITS_DIR: str = SPRITES_DIR + "units/"
+UNIT_BATTLEMASTER_SPRITE: str = UNITS_DIR + "battlemaster.png"
+UNIT_COMMANDER_SPRITE: str = UNITS_DIR + "commander.png"
+UNIT_FLAG_SPRITE: str = UNITS_DIR + "flag.png"
+UNIT_SCOUT_SPRITE: str = UNITS_DIR + "scout.png"
+UNIT_SHIELD_BEARER_SPRITE: str = UNITS_DIR + "shield_bearer.png"
+UNIT_SNIPER_SPRITE: str = UNITS_DIR + "sniper.png"
+UNIT_SOLDIER_SPRITE: str = UNITS_DIR + "soldier.png"
+SPECIAL_MOVE_ICON: str = UNITS_DIR + "special_move.png"
+
+PLAYER_DIR: str = SPRITES_DIR + "player/"
+PLAYER_ICON: str = PLAYER_DIR + "player.png"
+CPU_ICON: str = PLAYER_DIR + "cpu.png"
+GOLD_ICON: str = PLAYER_DIR + "gold.png"
